@@ -10,6 +10,8 @@ public class CalculatorStepDefs {
 
 	Calculator cal;
 	int result;
+	
+	@Given("I have a Calculator")
 	@Given("I have a calculator")
 	public void i_have_a_calculator() {
 	    System.out.println("creating calculator object");

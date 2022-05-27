@@ -5,7 +5,7 @@ Feature: Calulator features
 
   @single
   Scenario: Adding two Numbers
-    #Given I have a calculator
+    Given I have a Calculator
     When I add 2 and 3
     Then I should get 5 as result
 
@@ -14,7 +14,7 @@ Feature: Calulator features
     #Given I have a calculator
     When I add <one> and <two>
     Then I should get <total> as result
-    And I am happy
+    #And I am happy
 
     Examples: 
       | one | two | total |
