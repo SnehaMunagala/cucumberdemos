@@ -10,12 +10,12 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-			features = {"classpath:features"},
+			features = {"classpath:features/guruLogin.feature"},
 			monochrome = true,
 			plugin = {"pretty","html:target/cucumberReports/cucureport.html"},
-			glue= {"com.calculator"},
+			glue= {"com.addcustomer"},
 			publish = true,
-			tags = "@single or @multiple",
+//			tags = "@single or @multiple",
 //			dryRun = false,
 			snippets = SnippetType.CAMELCASE
 			
